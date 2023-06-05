@@ -1,0 +1,111 @@
+body {
+  background-color: #2F2E41;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+  padding-top: 70px;
+}
+
+header nav {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: 'JetBrains Mono', monospace;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav_bar {
+  gap: 64px;
+}
+
+a {
+text-decoration: none;
+}
+
+li a {
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFF;
+}
+
+li a:hover {
+  color: #ffffff63;
+}
+
+main {
+  display: flex;
+  margin: 107px auto 0;
+  width: 1090px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.text {
+  padding: 0;
+  text-align: center;
+  
+}
+
+.titulo {
+  width: 614px;
+  display: flex;
+  color: #FFF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.titulo span {
+  color: #00BFA6;
+}
+
+#content {
+  margin-top: 59px;
+  color: #c2c2c2;
+  width: 604px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+footer {
+  margin-top: 157px;
+}
+
+.line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #00BFA6;
+  margin: 0 auto 27px;
+}
+
+#instagram {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  color: #FFF;
+}
+
+#instagram a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#instagram a:hover{
+  color: #ffffff63;
+}
+
+#padlock {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+}
